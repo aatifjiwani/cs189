@@ -1,4 +1,6 @@
 /bin/**/*
 /include/**/*
 /lib/**/*
-/sckit_SVM/data/**/*
+hw1/sckit_SVM/data/**/*
+hw2/data/**/*
+/share/**/*
