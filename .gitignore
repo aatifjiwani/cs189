@@ -9,6 +9,10 @@ hw4/data/*
 
 hw5/datasets/*
 hw5/*.csv
+
+hw6/*.ipynb
+hw6/datasets/*
+
 /share/**/*
 
 *.zip
