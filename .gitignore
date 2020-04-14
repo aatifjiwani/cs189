@@ -3,4 +3,8 @@
 /lib/**/*
 hw1/sckit_SVM/data/**/*
 hw3/data/**/*
+hw3/*.png
 /share/**/*
+
+*.zip
+*.pdf
