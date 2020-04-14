@@ -19,12 +19,15 @@ def generateZ(mu, sigma):
 def plotGaussian(X, Y, Z):
     plt.contourf(X, Y, Z, 20, cmap="viridis")
     plt.colorbar()
+    plt.axes().set_aspect('equal')
+    plt.xlim([-7,7])
+    plt.ylim([-7,7])
     plt.show()
     plt.waitforbuttonpress()
     ## Save Plot 
 
 plot = np.empty((150,150,2))
-X,Y = np.meshgrid(np.linspace(-5, 5, 150), np.linspace(-5, 5, 150))
+X,Y = np.meshgrid(np.linspace(-7, 7, 150), np.linspace(-7, 7, 150))
 plot[:,:,0] = X
 plot[:,:,1] = Y
 
@@ -80,6 +83,6 @@ def q3_5():
 # q3_1()
 # q3_2()
 # q3_3()
-q3_4()
+# q3_4()
 q3_5()
     
