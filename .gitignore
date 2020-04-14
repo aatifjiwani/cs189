@@ -7,6 +7,8 @@ hw3/*.png
 
 hw4/data/*
 
+hw5/datasets/*
+hw5/*.csv
 /share/**/*
 
 *.zip
