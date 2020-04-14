@@ -4,6 +4,9 @@
 hw1/sckit_SVM/data/**/*
 hw3/data/**/*
 hw3/*.png
+
+hw4/data/*
+
 /share/**/*
 
 *.zip
